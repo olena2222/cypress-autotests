@@ -1,0 +1,24 @@
+{
+  "name": "cypress-autotests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olena2222/cypress-autotests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/olena2222/cypress-autotests/issues"
+  },
+  "homepage": "https://github.com/olena2222/cypress-autotests#readme",
+  "devDependencies": {
+    "cypress": "^15.15.0"
+  }
+}
