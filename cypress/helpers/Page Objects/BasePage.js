@@ -15,4 +15,5 @@ export default class {
   containUrlCheck(expectedURL) {
     cy.url().should("contain", expectedURL);
   }
+
 }

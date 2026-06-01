@@ -15,8 +15,8 @@ export default class {
   }
 
   logIn(email, password) {
-    this.emailField.type(email);
-    this.passwordField.type(password, { sensitive: true });
+    this.emailField.type(Cypress.env("userEmail"));
+    this.passwordField.type((Cypress.env("userPassword")), { sensitive: true });
     this.loginButton.click();
   }
 }
