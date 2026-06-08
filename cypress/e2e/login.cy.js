@@ -7,7 +7,7 @@ describe("Test for user login", () => {
   it("Login test", () => {
     homePage.header.openLoginModal();
     homePage.header.checkVisibility(homePage.signin.signInModal);
-    homePage.signin.logIn("kamoko4666@googxs.com", "Ool123456");
+    homePage.signin.logIn((Cypress.env("userEmail")),(Cypress.env("userPassword")));
     homePage.containUrlCheck("panel/garage");
   });
 });
