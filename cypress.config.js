@@ -1,7 +1,7 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
-  allowCypressEnv: false,
+  //allowCypressEnv: false,
   viewportWidth: 1920,
   viewportHeight: 1080,
   watchForFileChanges: false,
