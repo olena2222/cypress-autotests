@@ -18,4 +18,9 @@ export default class extends BasePage {
   getCarByName(brand, model) {
     return this.carItem.last().should("contain", `${brand} ${model}`);
   }
+get fuelExpensesLink() {
+    return cy.get('[routerlink="expenses"]');
+  }
+  
+
 }
