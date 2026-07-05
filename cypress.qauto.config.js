@@ -1,7 +1,7 @@
 import { defineConfig} from "cypress";
 import "dotenv/config";
 import { config } from "dotenv";
-import { baseConfig} from "./baseConfig";
+import { baseConfig } from './baseConfig.js'
 
 config({path: `.env.qauto`});
  const configObj = {

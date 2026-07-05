@@ -1,4 +1,4 @@
-import HomePage from "../helpers/page objects/HomePage";
+import HomePage from "../helpers/Page Objects/HomePage";
 describe("Tests for header", () => {
   const homePage = new HomePage();
   beforeEach(() => {
