@@ -1,9 +1,6 @@
 name: Cypress Tests in Docker
 run-name: Cypress Tests run in Docker
-on:
-  push:
-    branches:
-      - gitActions
+on: workflow_dispatch
 jobs:
   cypress-tests:
     name: "Run Cypress tests"
