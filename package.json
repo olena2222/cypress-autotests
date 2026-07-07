@@ -7,7 +7,8 @@
     "cy:qauto": "cypress open --config-file cypress.qauto.config.js ",
     "cy:qauto2": "cypress open --config-file cypress.qauto2.config.js",
     "cy:qauto:run": "cypress run --config-file cypress.qauto.config.js",
-    "cy:qauto2:run": "cypress run --config-file cypress.qauto2.config.js"
+    "cy:qauto2:run": "cypress run --config-file cypress.qauto2.config.js",
+    "test:ci": "cypress run --config-file cypress.qauto.config.js --spec 'cypress/e2e/login.cy.js'"
   },
   "repository": {
     "type": "git",

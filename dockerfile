@@ -8,4 +8,4 @@ ENV ENVIRONMENT=prod
 
 RUN npm install
 
-CMD ["npx", "cypress", "run", "--config-file", "cypress.qauto.config.js"]
+CMD ["npx", "cypress", "test:ci"]
