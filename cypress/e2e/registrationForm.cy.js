@@ -1,4 +1,4 @@
-import HomePage from "../helpers/page objects/HomePage";
+import HomePage from "../helpers/Page Ojects/HomePage";
 
 describe("Registration form", () => {
   const homePage = new HomePage();
@@ -336,7 +336,7 @@ describe("Registration form", () => {
   it("Check register valid case", () => {
     homePage.signup.nameField.type("ol");
     homePage.signup.lastNameField.type("test");
-    homePage.signup.emailField.type("kamoko4666@googxs.com");
+    homePage.signup.emailField.type("kamokdo4666@googxs.com");
     homePage.signup.passwordField.type("Ool123456");
     homePage.signup.repeatPasswordField.type("Ool123456");
     homePage.signup.registerButton.should("not.be.disabled").click();

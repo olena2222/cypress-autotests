@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/olena2222/cypress-autotests#readme",
   "devDependencies": {
-    "cypress": "^15.15.0",
+    "cypress": "13.6.6",
     "dotenv": "^16.4.5"
   },
   "dependencies": {
